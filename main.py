@@ -2,9 +2,9 @@ from flask import Flask, url_for
 
 app = Flask(__name__)
 
-# @app.route('/')
-# def _():
-#     return "Миссия Колонизация Марса"
+@app.route('/')
+def _():
+     return "Миссия Колонизация Марса"
 @app.route('/index')
 def index():
     return "И на Марсе будут яблони цвести!"
